@@ -1,4 +1,4 @@
-# Arrays
+# Arrays in Java Script
 ## Splice
 
 splice() is another handy method that allows you to add and remove elements from anywhere within an array.
@@ -136,3 +136,28 @@ var myObj = {
 
 console.log(myObj.eat());
 console.log(myObj.color);
+
+
+Directions:
+
+Create a breakfast object to represent the following menu item:
+
+The Lumberjack - $9.95
+eggs, sausage, toast, hashbrowns, pancakes
+
+The object should contain properties for the name, price, and ingredients.
+/*
+ * Programming Quiz: Menu Items (7-2)
+ * Create an object named `breakfast`. 
+ * The object should contain properties for the `name`, `price`, and `ingredients`.
+ * Print the entire object on the console
+ */
+
+// your code goes here
+// your code goes here
+var breakfast = {
+    name: "The Lumberjack",
+    price: "$9.95",
+    ingredients: ["eggs", "sausage", "toast", "hashbrowns", "pancakes"]
+};
+console.log(breakfast);
