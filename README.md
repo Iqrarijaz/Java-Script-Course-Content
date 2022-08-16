@@ -123,3 +123,16 @@ The syntax you see above is called object-literal notation. There are some impor
     The key: value pairs are separated from each other by commas
     The entire object is wrapped inside curly braces { }.
 
+// Object literals, methods, and properties
+
+// You can define objects using object-literal notation:
+
+var myObj = { 
+  color: "orange",
+  shape: "sphere",
+  type: "food",
+  eat: function() { return "yummy" }
+};
+
+console.log(myObj.eat());
+console.log(myObj.color);
