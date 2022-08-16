@@ -1,5 +1,5 @@
-#Arrays
-Splice
+# Arrays
+## Splice
 
 splice() is another handy method that allows you to add and remove elements from anywhere within an array.
 
@@ -9,7 +9,7 @@ var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
 donuts.splice(1, 1, "chocolate cruller", "creme de leche"); 
 
 
-Directions:
+# Directions:
 
 Use a nested for loop to take the numbers array below and replace all of the values that are divisible by 2 (even numbers) with the string "even" and all other numbers with the string "odd".
 /*
